@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 500px;
+    position: relative;
+    background-image: url(Images/services-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(139, 129, 129);
+    background-blend-mode:color-burn;
+}
+
+nav{
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+nav  ul  li  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 98);
+
+}
+.hero-section{
+    width: 100%;
+     height: 100px; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    line-height: .8;
+    margin-top: 10%;
+}
+.small-text{
+    font-size: large;
+}
+.big-h1{
+    padding-top: 20px;
+    font-size: 5rem;
+}
+.serving a{
+    color: black;
+    text-decoration: none;
+}
+#pics{
+    display: flex;
+    
+}
+.gg img{
+    display: grid;
+    height: 290px;
+    justify-content: space-between;
+    gap: 20px;
+}
+#dd{
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+.serving{
+    display: flex;
+    margin: auto;
+    padding-top: 90px;
+    background-color: rgba(128, 128, 128, 0.082);
+    margin-top: 30px;
+    padding-bottom: 60px;
+
+}
+#earum{
+    max-width: 550px;
+    font-size: 1.2rem;
+    padding: 60px;
+    padding-top: 95px;
+    padding-right: 80px;
+    padding-left: 100px;
+}
+#earum h2{
+    font-size: 4rem;
+    padding-bottom: 15px;
+}
+#earum p{
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+#earum a{
+    line-height: 2;
+    font-size: 1.3rem;
+}
+#earum button{
+    margin-top: 30px;
+    padding: 20px 50px;
+    background-color: white;
+    border: 2px rgb(255, 0, 98) solid;
+    cursor: pointer;
+}
+#earum button:hover{
+    background-color: rgb(255, 0, 98);
+    border: none;
+    color: white;
+}
+
+#odd{
+    margin-left: 15px;
+    width: 500px;
+    height: 600px;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    background-color:  rgba(128, 128, 128, 0.082);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+}
+.box img{
+    margin-top: 20px;
+}
+.icon1{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.icon2{
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.icon3{
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.icon4{
+    margin-right: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.want{
+    height: 300px;
+    position: relative;
+    background-image: url(Images/pic25-free-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(32, 31, 31, 0.534);
+    background-blend-mode:color-burn;
+    line-height: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.tt{
+    justify-items: center;
+}
+.tt h2{
+    font-size: 2rem;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+.tt p{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.tt h4{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.tt button{
+    margin-top: 30px;
+    padding: 20px 50px;
+    background-color: transparent;
+    border: 2px rgb(255, 0, 98) solid;
+    cursor: pointer;
+}
+.tt button:hover{
+    background-color: rgb(255, 0, 98);
+    border: none;
+    color: white;
+}
+
+.container7{
+    /* background-color: rgb(180, 137, 137); */
+    margin: auto;
+    /* height: 700px; */
+    height: 800px;
+}
+.real-container7{
+    width: 100%;
+    margin: auto;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.what-we-do{
+    padding-top: 200px;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+    /* grid-area: a; */
+    background-color:rgb(226, 0, 106);
+}
+.container7-smalltext{
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.icon i{
+    padding-top: 20px;
+}
+.container7-bigtext{
+    font-size: 3rem;
+    color: white;
+}
+.container7-smallertext{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    color: white;
+    margin: auto;
+    width: 60%;
+}
+.send-us-a-message{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.send-us-a-message input, .send-us-a-message textarea{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+.send-us-a-message textarea{
+    height: 120px;
+}
+input[type='text']{
+    padding: 10px;
+}
+input, textarea{
+    outline: none;
+}
+input:focus{
+    border: 1px dotted black;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+}
+textarea:focus{
+    border: 1px dotted black;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+}
+.send-us-a-message-smalltext{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    
+}
+.send-us-a-message-h2{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+.send-us-a-message-button button{
+    padding: 15px 50px;
+    background: none;
+    border: 2px solid rgb(226, 0, 106);;
+}
+.send-us-a-message-button button:hover{
+    background: rgb(226, 0, 106);
+    border: none;
+    color: white;
+}
+.container8{
+    background-color: rgb(31, 30, 29);
+    /* height: 100px; */
+}
+.container8-main{
+    color: white;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 50px;
+}
+.container8-firsttext p{
+    font-size: .9rem;
+}
+.container8-secondtext p{
+    font-size: .9rem;
+}
+
+
+
